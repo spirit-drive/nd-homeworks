@@ -23,10 +23,5 @@ function showInfo(err, info) {
     }
 }
 
-// let __dirname = './test';
-// let __filename = './test/test1.txt';
-
 pathInfo('./test', showInfo);
 pathInfo('./test/test1.txt', showInfo);
-// pathInfo(__dirname, showInfo);
-// pathInfo(__filename, showInfo);
